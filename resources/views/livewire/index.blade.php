@@ -1,9 +1,9 @@
 <div>
 
     <div class="logos">
-        <img src="/laravel/resources/multimedia/edomex.png" alt="Logo 1" class="logoedomex">
-        <img src="/laravel/resources/multimedia/tesi.png" alt="Logo 2" class="logotesi">
-        <img src="/laravel/resources/multimedia/isclogo.jpeg" alt="Logo 3" class="logoisc">
+        <img src="media/edomex.png" alt="Logo 1" class="logoedomex">
+        <img src="media/tesi.png" alt="Logo 2" class="logotesi">
+        <img src="media/isclogo.jpeg" alt="Logo 3" class="logoisc">
     </div>
     <div class="banner">
         <h1>Bienvenidos</h1>
@@ -24,8 +24,8 @@
                 <li><a href="#">Ficha de Identificación</a></li>
             </ul>
         </div>
-        <div class="mascot">
-            <img src="/laravel/resources/multimedia/roco2.png" alt="Mascota Roko">
+        <div class="pet">
+            <img src="{{ asset('media/roco2.png') }}" alt="Mascota Roko">
         </div>
     </div>
 </main>
@@ -36,7 +36,7 @@
 
 <script>
     function cerrarSesion() {
-        window.location.href = "/laravel/login.html";
+        window.location.href = "/login.html";
     }
 </script>
 
